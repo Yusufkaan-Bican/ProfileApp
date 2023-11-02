@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.welkom {
+  background-color: white;
+  overflow: hidden;
+}
+
+.topnav {
+  overflow: hidden;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.button-style {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 20px;
+}
+.button-edit {
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 20px;
+}
+.button-delete {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 20px;
+}
+.button-view {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+    border-radius: 20px;
+}
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  width: 100%;
+  overflow: hidden;
+}
+
+.topnav a:hover {
+  background-color: #FFF578;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+#container1 {
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+  height: auto; 
+  border: 1px solid black;
+  background-color: #FFF578;
+  border-radius: 20px;
+}
+
+#container2 {
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+  height: auto; 
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#profiel{
+  width: 100px;
+  text-align: right;  
+}
+
+.footer {
+  background: #000;
+  padding: 10px 0px;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0%;
+  padding: 0.6% 0%;
+  color: gray;
+  font-size: 0.8em;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: #fff;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0px 10px;
+}
+
+.footer .row a i {
+  font-size: 1.5em;
+  margin: 0% 2%;
+}
+
+@media (max-width: 1200px) {
+  #container1 {
+    width: 95%;
+  }
+}
+
+@media (max-width: 768px) {
+  .topnav a {
+    padding: 15px;
+  }
+
+  #container1 {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topnav {
+    flex-direction: column;
+  align-items: flex-start;
+  }
+
+  .topnav a {
+    float: none;
+    padding: 15px;
+    text-align: left;
+  }
+
+  #container1 {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0px;
+  }
+
+  .footer .row a i {
+    font-size: 1.2em;
+    margin: 0% 3%;
+  }
+}
+
