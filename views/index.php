@@ -14,8 +14,8 @@ if (!isset($_SESSION['username'])) {
 <head>
 	<title>Home-page</title>
   <link rel="stylesheet" href="../public/css/style.css">
+      <script src="../public/js/functie.js"></script>
 </head>
-  
 <body>
      <img src="../public/img/wmlogo.png" class="wmlogo" style="width:170px;"/>
   <div class="welkom">
@@ -28,6 +28,7 @@ if (!isset($_SESSION['username'])) {
         <a href="./over.php">Bekijk profielen</a>
         <a href="../controllers/uitloggen.php"> Uitloggen</a>
 </div>
+    <button class="button-style" style="background-color: black;" onclick="toggleDarkMode()">Dark Mode</button>
 </br>
 <div id="container1">
   <h2>Welkom bij applicatie ProfilePlus +</h2>
@@ -35,7 +36,7 @@ if (!isset($_SESSION['username'])) {
   <p>
 <b>De ProfilePlus</b> is een handige computerapplicatie waarmee je je online profielen en digitale identiteit kunt beheren. </br>Of je nu je sociale media profielen wilt verbeteren of een professioneel zakelijk profiel wilt aanmaken, de ProfilePlus maakt het <b>gemakkelijk.</b> </br></br>Het <b>helpt</b> je om jezelf online op een aantrekkelijke en consistente manier te presenteren.</p>
 </div></br>
-<div id="container2">
+<div id="container1">
      <img src="../public/img/profiel.png" id="profiel"></img>
     <h2>Maak nu jou online Profiel</h2>
     <p>

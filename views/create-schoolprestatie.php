@@ -16,6 +16,7 @@ header('location: ../controllers/login.php');
     <title>Home-page</title>
     <link rel="stylesheet" href="../public/css/style.css">
     <link rel="stylesheet" type="text/css" href="../public/css/login.css">
+
 </head>
 
 <body>
@@ -59,6 +60,7 @@ header('location: ../controllers/login.php');
             <input type="text" name="cijfer" class="form-control">
         </div>
         <input type="submit" onclick="location.href='./profiel.php';" name="save_student" value="Sla gegevens op" class="button-style" />
+
     </form>
 </div>
 

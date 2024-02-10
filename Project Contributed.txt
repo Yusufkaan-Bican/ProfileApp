@@ -1,4 +1,26 @@
-Dit project is gemaakt door:
+Dit project is gemaakt en geupdate door:
 
-Yusufkaan Bican
-AD Software Development
+Groep GGG
+
+Yusufkaan
+Issam
+Khalid
+
+
+_________________________________________
+
+Aanvoeging van DarkMode
+Aanvoeging van JS in apart mapje in public in de code staat geschreven wat het doel is van de code.
+
+Mockup
+Wireframe + beschreven onderdelen
+Wireframe omgezet in HTML5
+
+
+Lettertype en kleuren beschreven waarom
+
+Meer CSS3 Properties gevoegd
+
+
+
+_________________________________________
